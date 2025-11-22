@@ -1,0 +1,95 @@
+[
+  {
+    "nome": "React",
+    "descricao": "Uma biblioteca JavaScript declarativa, eficiente e flexível para a construção de interfaces de usuário (UI).",
+    "imagem": "react.jpg",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "frontend",
+      "biblioteca",
+      "javascript",
+      "meta"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL baseado em documentos que oferece alta disponibilidade, escalabilidade e flexibilidade de esquema.",
+    "imagem": "mongodb.jpg",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "banco de dados",
+      "nosql",
+      "documento",
+      "escalabilidade"
+    ]
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Runtime de código aberto e multi-plataforma para executar código JavaScript no lado do servidor.",
+    "imagem": "nodejs.jpg",
+    "data_criacao": "2009",
+    "link": "https://nodejs.org/",
+    "tags": [
+      "backend",
+      "runtime",
+      "javascript",
+      "servidor"
+    ]
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "SDK de UI do Google para construir aplicações nativamente compiladas para dispositivos móveis, web e desktop a partir de uma única base de código.",
+    "imagem": "flutter.jpg",
+    "data_criacao": "2017",
+    "link": "https://flutter.dev/",
+    "tags": [
+      "mobile",
+      "ui",
+      "dart",
+      "multiplataforma",
+      "sdk"
+    ]
+  },
+  {
+    "nome": "Git",
+    "descricao": "Sistema de controle de versão distribuído, gratuito e de código aberto, projetado para lidar com tudo, desde projetos pequenos a muito grandes.",
+    "imagem": "git.jpg",
+    "data_criacao": "2005",
+    "link": "https://git-scm.com/",
+    "tags": [
+      "controle de versão",
+      "ferramenta",
+      "devops",
+      "colaboração"
+    ]
+  },
+  {
+    "nome": "JavaScript",
+    "descricao": "Linguagem de programação de alto nível, interpretada e multi-paradigma, amplamente utilizada para desenvolvimento web interativo no lado do cliente e também no servidor (com Node.js).",
+    "imagem": "javascript.jpg",
+    "data_criacao": "1995",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+    "tags": [
+      "frontend",
+      "backend",
+      "linguagem de programação",
+      "web"
+    ]
+  },
+  {
+    "nome": "Python",
+    "descricao": "Linguagem de programação de alto nível, interpretada, de propósito geral, com uma sintaxe clara e legível, muito popular em ciência de dados, inteligência artificial e desenvolvimento web.",
+    "imagem": "python.jpg",
+    "data_criacao": "1991",
+    "link": "https://www.python.org/",
+    "tags": [
+      "backend",
+      "data science",
+      "linguagem de programação",
+      "inteligência artificial"
+    ]
+  }
+
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlixCode | Sua plataforma de códigos!</title>
+</head>
+<body>  
+  <div id="intro-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: black; z-index: 1000; display: flex; justify-content: center; align-items: center;">
+    <video id="intro-video" src="intro.mp4" autoplay muted style="width: 100%; height: 100%; object-fit: cover;"></video>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <header>
+      <h1>FlixCode</h1>
+      <div>
+          <input type="text" placeholder="Digite uma linguagem de programação">
+          <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+      </div>
+    </header>
+    <main>
+        <section class="card-container">
+          <!-- <article class="card">
+          <h2>JavaScript</h2>
+          <p> Descrição JS</p>
+          <a href="" target="_blank">Saiba mais</a>
+          </article> -->
+        </section>
+    </main>
+    <footer class="footer">
+
+      <ul class="footer-links">
+          <li><a href="">Github</a></li>
+          <li><a href="">Alura</a></li>
+          <li><a href="#" onclick="mostrarTodosOsCards(); return false;">Catálogo</a></li>
+      </ul>
+
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Função para gerenciar a introdução em vídeo
+    function gerenciarVideoIntro() {
+      const videoContainer = document.getElementById('intro-container');
+      const video = document.getElementById('intro-video');
+      const mainContent = document.getElementById('main-content');
+
+      // Adiciona um ouvinte de evento para quando o vídeo terminar
+      video.addEventListener('ended', () => {
+        // Esconde o contêiner do vídeo
+        videoContainer.style.display = 'none';
+        // Mostra o conteúdo principal do site
+        mainContent.style.display = 'block';
+      });
+    }
+
+    // Executa a função quando a janela carregar
+    window.onload = gerenciarVideoIntro;
+  </script>
+  
+</body>
+</html>
