@@ -251,4 +251,16 @@ article a:hover {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+/* Media Query para ocultar o vídeo de introdução em tablets e celulares */
+@media (max-width: 1024px) {
+    /* Assumindo que seu vídeo está em um contêiner com o id #intro-container 
+       e o conteúdo principal em #main-content. 
+       Ajuste os seletores se necessário. */
+    #intro-container {
+        display: none;
+    }
+    #main-content {
+        display: block; /* Garante que o conteúdo principal seja exibido */
+    }
+}
 
